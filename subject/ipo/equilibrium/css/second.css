@@ -423,6 +423,10 @@ main ol li {
 main a {
   text-decoration: none;
   color: #a95;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  word-break: break-all;
+  word-break: break-word;
 }
 
 

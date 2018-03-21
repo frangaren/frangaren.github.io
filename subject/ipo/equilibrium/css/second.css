@@ -429,7 +429,10 @@ main a {
   word-break: break-word;
 }
 
-
+main a:hover,
+main a:active {
+  text-decoration: underline;
+}
 
 /*
   TOP LINKS
@@ -555,6 +558,11 @@ main a {
 .site-footer a {
   text-decoration: none;
   color: #cb7;
+}
+
+.site-footer a:hover,
+.site-footer a:active {
+  text-decoration: underline;
 }
 
 
